@@ -8,7 +8,6 @@ let root = new Vue(
             firstImage:`img/img.01.jpg`,
             secondImage:`img/img.02.jpg`,
             thirdImage:`img/img.03.jpg`,
-            // imgValue: document.getElementById(`images`).value,
         },
         methods: {
             newImg : function(){
@@ -18,24 +17,7 @@ let root = new Vue(
     },
 )
 
-const selectImage = document.getElementById(`images`);
-document.querySelector(`button`).addEventListener(`click`, function(){
-    console.log(selectImage.value)
-    function newImage(){
-        switch (selectImage.value) {
-            case `1`:
-                console.log(selectImage)
-                break;
-            case `2`:
-                console.log(selectImage)
-                break;
-            case `3`:
-                console.log(selectImage)
-                break;        
-        }
-        return selectImage;
-    }
-});
+
 
 // function newImage(value, source, firstLink, secondLink, thirdLink){
 //     switch (value) {
