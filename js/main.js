@@ -14,7 +14,25 @@ let root = new Vue(
             newImg : function(){
                 console.warn(`prova funzione click`)
             },
+            // myImg : function(value, imageUrl, firstImage, secondImage, thirdImage){
+            //     switch (value) {
+            //         case `1`:
+            //             imageUrl= firstImage;
+            //             console.log(imageUrl)
+            //             break;
+            //         case `2`:
+            //             imageUrl= secondImage;
+            //             break;
+            //         case `3`:
+            //             imageUrl = thirdImage;
+            //             break;        
+            //     }
 
+            //     console.warn(document.getElementById(`images`).value)
+            //     console.log(imageUrl)
+            //     return(imageUrl)
+
+            // },
             
         }
     },
@@ -39,4 +57,17 @@ document.querySelector(`button`).addEventListener(`click`, function(){
     }
 });
 
-
+// function newImage(value, source, firstLink, secondLink, thirdLink){
+//     switch (value) {
+//         case `1`:
+//             source= firstLink;
+//             break;
+//         case `2`:
+//             source= secondLink;
+//             break;
+//         case `3`:
+//             source = thirdLink;
+//             break;        
+//     }
+//     return source;
+// }}
