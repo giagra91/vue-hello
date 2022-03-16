@@ -8,7 +8,6 @@ let root = new Vue(
             firstImage:`img/img.01.jpg`,
             secondImage:`img/img.02.jpg`,
             thirdImage:`img/img.03.jpg`,
-            mySelectValue: document.getElementById(`images`)
         },
         methods: {
             firstImg : function(){
